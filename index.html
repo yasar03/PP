@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Messages and Spin Wheel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <audio id="background-music" src="your-song.mp3" autoplay loop></audio>
+    <div class="container">
+        <div id="messages-section">
+            <div id="message" class="message-box">Hi Praisy...</div>
+            <button id="next-button" class="button">Next</button>
+        </div>
+        <div id="spin-wheel-section" style="display: none;">
+            <div><h3>I should go out with Yasar today?</h3></div>
+            <br><br>
+            <div class="wheel-container">
+                <div class="pointer"></div>
+                <div class="wheel" id="wheel">
+                    <div class="yes">YES</div>
+                    <div class="no">NO</div>
+                </div>
+            </div>
+            <button id="spin-button" class="button">Spin the Wheel</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
